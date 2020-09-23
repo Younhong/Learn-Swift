@@ -15,8 +15,8 @@
 		DBB68B66251B2765009D9F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB68B64251B2765009D9F86 /* LaunchScreen.storyboard */; };
 		DBB68B71251B2765009D9F86 /* ImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB68B70251B2765009D9F86 /* ImageViewTests.swift */; };
 		DBB68B7C251B2765009D9F86 /* ImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB68B7B251B2765009D9F86 /* ImageViewUITests.swift */; };
-		DBB68B98251B287E009D9F86 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB68B96251B287E009D9F86 /* lamp_off.png */; };
-		DBB68B99251B287E009D9F86 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB68B97251B287E009D9F86 /* lamp_on.png */; };
+		DBB68B9F251B2CA6009D9F86 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB68B9D251B2CA6009D9F86 /* lamp_off.png */; };
+		DBB68BA0251B2CA6009D9F86 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB68B9E251B2CA6009D9F86 /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		DBB68B77251B2765009D9F86 /* ImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB68B7B251B2765009D9F86 /* ImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewUITests.swift; sourceTree = "<group>"; };
 		DBB68B7D251B2765009D9F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBB68B96251B287E009D9F86 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lamp_off.png; path = "03장/본문실습이미지/lamp_off.png"; sourceTree = "<group>"; };
-		DBB68B97251B287E009D9F86 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lamp_on.png; path = "03장/본문실습이미지/lamp_on.png"; sourceTree = "<group>"; };
+		DBB68B9D251B2CA6009D9F86 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		DBB68B9E251B2CA6009D9F86 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 		DBB68B58251B2762009D9F86 /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
-				DBB68B96251B287E009D9F86 /* lamp_off.png */,
-				DBB68B97251B287E009D9F86 /* lamp_on.png */,
+				DBB68B9D251B2CA6009D9F86 /* lamp_off.png */,
+				DBB68B9E251B2CA6009D9F86 /* lamp_on.png */,
 				DBB68B59251B2762009D9F86 /* AppDelegate.swift */,
 				DBB68B5B251B2762009D9F86 /* SceneDelegate.swift */,
 				DBB68B5D251B2762009D9F86 /* ViewController.swift */,
@@ -239,9 +239,9 @@
 			files = (
 				DBB68B66251B2765009D9F86 /* LaunchScreen.storyboard in Resources */,
 				DBB68B63251B2765009D9F86 /* Assets.xcassets in Resources */,
-				DBB68B99251B287E009D9F86 /* lamp_on.png in Resources */,
+				DBB68BA0251B2CA6009D9F86 /* lamp_on.png in Resources */,
 				DBB68B61251B2762009D9F86 /* Main.storyboard in Resources */,
-				DBB68B98251B287E009D9F86 /* lamp_off.png in Resources */,
+				DBB68B9F251B2CA6009D9F86 /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
