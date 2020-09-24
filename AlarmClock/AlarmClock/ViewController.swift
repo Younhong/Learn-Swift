@@ -25,20 +25,22 @@ class ViewController: UIViewController {
     @IBAction func changeDatePicker(_ sender: UIDatePicker) {
         let datePickerView = sender
         let formatter = DateFormatter()
-        formatter.dateFormat = "hh:mm aaa"
-        
-        alarmTime = formatter.string(from: datePickerView.date)
-        
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss EEE"
         lblPickerTime.text = "선택시간: " + formatter.string(from: datePickerView.date)
+
+        formatter.dateFormat = "hh:mm aaa"
+        alarmTime = formatter.string(from: datePickerView.date)
     }
     
     @objc func updateTime() {
         let date = NSDate()
         let formatter = DateFormatter()
         
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss EEE"
+        lblCurrentTime.text = "현재시간: " + formatter.string(from: date as Date)
+
         formatter.dateFormat = "hh:mm aaa"
         let currentTime = formatter.string(from: date as Date)
-        lblCurrentTime.text = "현재시간: " + currentTime
         
         if (alarmTime == currentTime) {
             view.backgroundColor = UIColor.red
