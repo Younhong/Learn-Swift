@@ -19,6 +19,7 @@
 		DB720453251D857100662CC6 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = DB720451251D857100662CC6 /* lamp_on.png */; };
 		DB720458251D85EC00662CC6 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB720457251D85EC00662CC6 /* ImageViewController.swift */; };
 		DB72045D251D88C500662CC6 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72045C251D88C400662CC6 /* DateViewController.swift */; };
+		DB720462251D911F00662CC6 /* File.png in Resources */ = {isa = PBXBuildFile; fileRef = DB720461251D911E00662CC6 /* File.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		DB720451251D857100662CC6 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lamp_on.png; path = ../../ImageView/ImageView/lamp_on.png; sourceTree = "<group>"; };
 		DB720457251D85EC00662CC6 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		DB72045C251D88C400662CC6 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		DB720461251D911E00662CC6 /* File.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = File.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		DB72041C251D81E000662CC6 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
+				DB720461251D911E00662CC6 /* File.png */,
 				DB720450251D857100662CC6 /* lamp_off.png */,
 				DB720451251D857100662CC6 /* lamp_on.png */,
 				DB72041D251D81E000662CC6 /* AppDelegate.swift */,
@@ -246,6 +249,7 @@
 				DB72042A251D81E300662CC6 /* LaunchScreen.storyboard in Resources */,
 				DB720427251D81E300662CC6 /* Assets.xcassets in Resources */,
 				DB720453251D857100662CC6 /* lamp_on.png in Resources */,
+				DB720462251D911F00662CC6 /* File.png in Resources */,
 				DB720425251D81E000662CC6 /* Main.storyboard in Resources */,
 				DB720452251D857100662CC6 /* lamp_off.png in Resources */,
 			);
