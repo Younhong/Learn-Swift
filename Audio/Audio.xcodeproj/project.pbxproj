@@ -15,6 +15,7 @@
 		DB0E4A4D252081B400FAEECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0E4A4B252081B400FAEECF /* LaunchScreen.storyboard */; };
 		DB0E4A58252081B400FAEECF /* AudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0E4A57252081B400FAEECF /* AudioTests.swift */; };
 		DB0E4A63252081B400FAEECF /* AudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0E4A62252081B400FAEECF /* AudioUITests.swift */; };
+		DB0E4A74252089EB00FAEECF /* Sicilian_Breeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB0E4A73252089EB00FAEECF /* Sicilian_Breeze.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DB0E4A5E252081B400FAEECF /* AudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0E4A62252081B400FAEECF /* AudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUITests.swift; sourceTree = "<group>"; };
 		DB0E4A64252081B400FAEECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0E4A73252089EB00FAEECF /* Sicilian_Breeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sicilian_Breeze.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		DB0E4A3F252081B000FAEECF /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				DB0E4A73252089EB00FAEECF /* Sicilian_Breeze.mp3 */,
 				DB0E4A40252081B000FAEECF /* AppDelegate.swift */,
 				DB0E4A42252081B000FAEECF /* SceneDelegate.swift */,
 				DB0E4A44252081B000FAEECF /* ViewController.swift */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB0E4A4D252081B400FAEECF /* LaunchScreen.storyboard in Resources */,
+				DB0E4A74252089EB00FAEECF /* Sicilian_Breeze.mp3 in Resources */,
 				DB0E4A4A252081B400FAEECF /* Assets.xcassets in Resources */,
 				DB0E4A48252081B000FAEECF /* Main.storyboard in Resources */,
 			);
