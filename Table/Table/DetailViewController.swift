@@ -9,18 +9,25 @@ import UIKit
 
 class DetailViewController: UIViewController {
     var receiveItem = ""
+    var receiveImage = ""
     
     @IBOutlet var lblItem: UILabel!
+    @IBOutlet var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         lblItem.text = receiveItem
+        imageView.image = UIImage(named: receiveImage)
     }
     
     func receiveItem(_ item: String) {
         receiveItem = item
+    }
+    
+    func receiveImage(_ item: String) {
+        receiveImage = item
     }
 
     /*

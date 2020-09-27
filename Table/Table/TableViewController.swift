@@ -100,6 +100,7 @@ class TableViewController: UITableViewController {
             let indexPath = self.tvListView.indexPath(for: cell)
             let detailView = segue.destination as! DetailViewController
             detailView.receiveItem(items[((indexPath as NSIndexPath?)?.row)!])
+            detailView.receiveImage(itemsImageFile[((indexPath as NSIndexPath?)?.row)!])
         }
     }
 
