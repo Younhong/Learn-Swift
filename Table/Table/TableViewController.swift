@@ -7,8 +7,12 @@
 
 import UIKit
 
-class TableViewController: UITableViewController {
+var items = ["책 구매", "약속", "스터디 준비하기"]
+var itemsImageFile = ["cart.png", "clock.png", "pencil.png"]
 
+class TableViewController: UITableViewController {
+    @IBOutlet var tvListView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,30 +20,30 @@ class TableViewController: UITableViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.navigationItem.leftBarButtonItem = self.editButtonItem
     }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return items.count
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
 
         // Configure the cell...
+        cell.textLabel?.text = items[(indexPath as NSIndexPath).row]
+        cell.imageView?.image = UIImage(named: itemsImageFile[(indexPath as NSIndexPath).row])
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -48,18 +52,22 @@ class TableViewController: UITableViewController {
         return true
     }
     */
+    
+    override func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
+        return "삭제"
+    }
 
-    /*
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
+            items.remove(at: (indexPath as NSIndexPath).row)
+            itemsImageFile.remove(at: (indexPath as NSIndexPath).row)
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
 
     /*
     // Override to support rearranging the table view.
