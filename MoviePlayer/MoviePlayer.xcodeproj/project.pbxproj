@@ -18,6 +18,9 @@
 		DB0E4AC52521792E00FAEECF /* FastTyping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DB0E4AC22521792E00FAEECF /* FastTyping.mp4 */; };
 		DB0E4AC62521792E00FAEECF /* FastTyping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB0E4AC32521792E00FAEECF /* FastTyping.jpg */; };
 		DB0E4AC72521792E00FAEECF /* Fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB0E4AC42521792E00FAEECF /* Fireworks.jpg */; };
+		DB4C88532521907400233F87 /* Mountaineering.mov in Resources */ = {isa = PBXBuildFile; fileRef = DB4C88502521907300233F87 /* Mountaineering.mov */; };
+		DB4C88542521907400233F87 /* Seascape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB4C88512521907400233F87 /* Seascape.jpg */; };
+		DB4C88552521907400233F87 /* Mountaineering.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB4C88522521907400233F87 /* Mountaineering.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		DB0E4AC22521792E00FAEECF /* FastTyping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FastTyping.mp4; sourceTree = "<group>"; };
 		DB0E4AC32521792E00FAEECF /* FastTyping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FastTyping.jpg; sourceTree = "<group>"; };
 		DB0E4AC42521792E00FAEECF /* Fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks.jpg; sourceTree = "<group>"; };
+		DB4C88502521907300233F87 /* Mountaineering.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Mountaineering.mov; sourceTree = "<group>"; };
+		DB4C88512521907400233F87 /* Seascape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seascape.jpg; sourceTree = "<group>"; };
+		DB4C88522521907400233F87 /* Mountaineering.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mountaineering.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +144,9 @@
 		DB0E4ACB2521793900FAEECF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DB4C88522521907400233F87 /* Mountaineering.jpg */,
+				DB4C88502521907300233F87 /* Mountaineering.mov */,
+				DB4C88512521907400233F87 /* Seascape.jpg */,
 				DB0E4AC32521792E00FAEECF /* FastTyping.jpg */,
 				DB0E4AC22521792E00FAEECF /* FastTyping.mp4 */,
 				DB0E4AC42521792E00FAEECF /* Fireworks.jpg */,
@@ -248,11 +257,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4C88542521907400233F87 /* Seascape.jpg in Resources */,
 				DB0E4A9C252178F400FAEECF /* LaunchScreen.storyboard in Resources */,
 				DB0E4A99252178F400FAEECF /* Assets.xcassets in Resources */,
 				DB0E4AC62521792E00FAEECF /* FastTyping.jpg in Resources */,
+				DB4C88552521907400233F87 /* Mountaineering.jpg in Resources */,
 				DB0E4AC52521792E00FAEECF /* FastTyping.mp4 in Resources */,
 				DB0E4AC72521792E00FAEECF /* Fireworks.jpg in Resources */,
+				DB4C88532521907400233F87 /* Mountaineering.mov in Resources */,
 				DB0E4A97252178F100FAEECF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
