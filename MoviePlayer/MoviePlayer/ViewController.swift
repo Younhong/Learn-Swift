@@ -35,5 +35,16 @@ class ViewController: UIViewController {
             player.play()
         }
     }
+    
+    @IBAction func btnPlayInternal2(_ sender: UIButton) {
+        let filePath:String? = Bundle.main.path(forResource: "Mountaineering", ofType: "mov")
+        let url = NSURL(fileURLWithPath: filePath!)
+        playVideo(url: url)
+    }
+    
+    @IBAction func btnPlayExternal2(_ sender: UIButton) {
+        let url = NSURL(string: "https://dl.dropboxusercontent.com/s/ijybpprsmx0bgre/Seascape.mov")!
+        playVideo(url: url)
+    }
 }
 

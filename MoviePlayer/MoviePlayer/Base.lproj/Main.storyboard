@@ -38,7 +38,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="165.5" height="269"/>
                                                         <state key="normal" title="Button" image="Fireworks.jpg"/>
                                                         <connections>
-                                                            <action selector="btnPlayInternalMovie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2rw-TP-y7u"/>
+                                                            <action selector="btnPlayExternalMovie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IIT-zh-kwI"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mp4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5R9-dh-yVw">
@@ -55,6 +55,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hop-sp-oJG">
                                                         <rect key="frame" x="31" y="0.0" width="165.5" height="269"/>
                                                         <state key="normal" title="Button" image="Seascape.jpg"/>
+                                                        <connections>
+                                                            <action selector="btnPlayExternal2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h5n-K8-vGP"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mov" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9m-B8-6lo">
                                                         <rect key="frame" x="31" y="269" width="165.5" height="20.5"/>
@@ -111,6 +114,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6NB-BY-Fda">
                                                         <rect key="frame" x="31" y="0.0" width="165.5" height="269"/>
                                                         <state key="normal" title="Button" image="Mountaineering.jpg"/>
+                                                        <connections>
+                                                            <action selector="btnPlayInternal2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2pD-09-oGW"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mov" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3BB-1u-3qI">
                                                         <rect key="frame" x="31" y="269" width="165.5" height="20.5"/>
