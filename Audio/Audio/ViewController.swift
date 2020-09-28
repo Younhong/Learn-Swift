@@ -26,13 +26,20 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
     
     @IBOutlet var btnRecord: UIButton!
     @IBOutlet var lblRecordTime: UILabel!
+    @IBOutlet var imgView: UIImageView!
     
     var audioRecorder: AVAudioRecorder!
     var isRecordMode = false
+    var playImage = UIImage(named: "play.png")
+    var pauseImage = UIImage(named: "pause.png")
+    var recordImage = UIImage(named: "record.png")
+    var stopImage = UIImage(named: "stop.png")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        imgView.image = stopImage
         
         selectAudioFile()
         if !isRecordMode {
@@ -130,6 +137,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
         audioPlayer.play()
         setPlayButtons(false, pause: true, stop: true)
         progressTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: timePlayerSelector, userInfo: nil, repeats: true)
+        
+        imgView.image = playImage
     }
     
     @objc func updatePlayTime() {
@@ -140,6 +149,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
     @IBAction func btnPauseAudio(_ sender: UIButton) {
         audioPlayer.pause()
         setPlayButtons(true, pause: false, stop: true)
+        
+        imgView.image = pauseImage
     }
     
     @IBAction func btnStopAudio(_ sender: UIButton) {
@@ -148,6 +159,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
         lblCurrentTime.text = convertNSTimeInterval2String(0)
         setPlayButtons(true, pause: false, stop: false)
         progressTimer.invalidate()
+        
+        imgView.image = stopImage
     }
     
     @IBAction func slChangeVolume(_ sender: UISlider) {
@@ -183,10 +196,12 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
     
     @IBAction func btnRecord(_ sender: UIButton) {
         if (sender as AnyObject).titleLabel?.text == "Record" {
+            imgView.image = recordImage
             audioRecorder.record()
             (sender as AnyObject).setTitle("Stop", for: UIControl.State())
             progressTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: timeRecordSelector, userInfo: nil, repeats: true)
         } else {
+            imgView.image = stopImage
             audioRecorder.stop()
             progressTimer.invalidate()
             (sender as AnyObject).setTitle("Record", for: UIControl.State())
