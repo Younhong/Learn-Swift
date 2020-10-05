@@ -23,8 +23,8 @@ class ViewController: UIViewController {
         context.setStrokeColor(UIColor.red.cgColor)
         context.move(to: CGPoint(x: 70, y: 50))
         context.addLine(to: CGPoint(x: 270, y: 250))
-        
         context.strokePath()
+        
         context.setLineWidth(4.0)
         context.setStrokeColor(UIColor.blue.cgColor)
         context.move(to: CGPoint(x: 170, y: 200))
