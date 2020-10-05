@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB364AB1252B3236000D22DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364AB0252B3236000D22DC /* AppDelegate.swift */; };
+		DB364AB3252B3236000D22DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364AB2252B3236000D22DC /* SceneDelegate.swift */; };
+		DB364AB5252B3236000D22DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364AB4252B3236000D22DC /* ViewController.swift */; };
+		DB364AB8252B3236000D22DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB364AB6252B3236000D22DC /* Main.storyboard */; };
+		DB364ABA252B323A000D22DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB364AB9252B323A000D22DC /* Assets.xcassets */; };
+		DB364ABD252B323A000D22DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB364ABB252B323A000D22DC /* LaunchScreen.storyboard */; };
+		DB364AC8252B323A000D22DC /* TabTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364AC7252B323A000D22DC /* TabTouchTests.swift */; };
+		DB364AD3252B323A000D22DC /* TabTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364AD2252B323A000D22DC /* TabTouchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB364AC4252B323A000D22DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB364AA5252B3236000D22DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB364AAC252B3236000D22DC;
+			remoteInfo = TabTouch;
+		};
+		DB364ACF252B323A000D22DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB364AA5252B3236000D22DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB364AAC252B3236000D22DC;
+			remoteInfo = TabTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB364AAD252B3236000D22DC /* TabTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB364AB0252B3236000D22DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB364AB2252B3236000D22DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB364AB4252B3236000D22DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB364AB7252B3236000D22DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB364AB9252B323A000D22DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB364ABC252B323A000D22DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB364ABE252B323A000D22DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB364AC3252B323A000D22DC /* TabTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB364AC7252B323A000D22DC /* TabTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTouchTests.swift; sourceTree = "<group>"; };
+		DB364AC9252B323A000D22DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB364ACE252B323A000D22DC /* TabTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB364AD2252B323A000D22DC /* TabTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTouchUITests.swift; sourceTree = "<group>"; };
+		DB364AD4252B323A000D22DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB364AAA252B3236000D22DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364AC0252B323A000D22DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364ACB252B323A000D22DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB364AA4252B3236000D22DC = {
+			isa = PBXGroup;
+			children = (
+				DB364AAF252B3236000D22DC /* TabTouch */,
+				DB364AC6252B323A000D22DC /* TabTouchTests */,
+				DB364AD1252B323A000D22DC /* TabTouchUITests */,
+				DB364AAE252B3236000D22DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB364AAE252B3236000D22DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB364AAD252B3236000D22DC /* TabTouch.app */,
+				DB364AC3252B323A000D22DC /* TabTouchTests.xctest */,
+				DB364ACE252B323A000D22DC /* TabTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB364AAF252B3236000D22DC /* TabTouch */ = {
+			isa = PBXGroup;
+			children = (
+				DB364AB0252B3236000D22DC /* AppDelegate.swift */,
+				DB364AB2252B3236000D22DC /* SceneDelegate.swift */,
+				DB364AB4252B3236000D22DC /* ViewController.swift */,
+				DB364AB6252B3236000D22DC /* Main.storyboard */,
+				DB364AB9252B323A000D22DC /* Assets.xcassets */,
+				DB364ABB252B323A000D22DC /* LaunchScreen.storyboard */,
+				DB364ABE252B323A000D22DC /* Info.plist */,
+			);
+			path = TabTouch;
+			sourceTree = "<group>";
+		};
+		DB364AC6252B323A000D22DC /* TabTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB364AC7252B323A000D22DC /* TabTouchTests.swift */,
+				DB364AC9252B323A000D22DC /* Info.plist */,
+			);
+			path = TabTouchTests;
+			sourceTree = "<group>";
+		};
+		DB364AD1252B323A000D22DC /* TabTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB364AD2252B323A000D22DC /* TabTouchUITests.swift */,
+				DB364AD4252B323A000D22DC /* Info.plist */,
+			);
+			path = TabTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB364AAC252B3236000D22DC /* TabTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB364AD7252B323A000D22DC /* Build configuration list for PBXNativeTarget "TabTouch" */;
+			buildPhases = (
+				DB364AA9252B3236000D22DC /* Sources */,
+				DB364AAA252B3236000D22DC /* Frameworks */,
+				DB364AAB252B3236000D22DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabTouch;
+			productName = TabTouch;
+			productReference = DB364AAD252B3236000D22DC /* TabTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB364AC2252B323A000D22DC /* TabTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB364ADA252B323A000D22DC /* Build configuration list for PBXNativeTarget "TabTouchTests" */;
+			buildPhases = (
+				DB364ABF252B323A000D22DC /* Sources */,
+				DB364AC0252B323A000D22DC /* Frameworks */,
+				DB364AC1252B323A000D22DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB364AC5252B323A000D22DC /* PBXTargetDependency */,
+			);
+			name = TabTouchTests;
+			productName = TabTouchTests;
+			productReference = DB364AC3252B323A000D22DC /* TabTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB364ACD252B323A000D22DC /* TabTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB364ADD252B323A000D22DC /* Build configuration list for PBXNativeTarget "TabTouchUITests" */;
+			buildPhases = (
+				DB364ACA252B323A000D22DC /* Sources */,
+				DB364ACB252B323A000D22DC /* Frameworks */,
+				DB364ACC252B323A000D22DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB364AD0252B323A000D22DC /* PBXTargetDependency */,
+			);
+			name = TabTouchUITests;
+			productName = TabTouchUITests;
+			productReference = DB364ACE252B323A000D22DC /* TabTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB364AA5252B3236000D22DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DB364AAC252B3236000D22DC = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DB364AC2252B323A000D22DC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DB364AAC252B3236000D22DC;
+					};
+					DB364ACD252B323A000D22DC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DB364AAC252B3236000D22DC;
+					};
+				};
+			};
+			buildConfigurationList = DB364AA8252B3236000D22DC /* Build configuration list for PBXProject "TabTouch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB364AA4252B3236000D22DC;
+			productRefGroup = DB364AAE252B3236000D22DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB364AAC252B3236000D22DC /* TabTouch */,
+				DB364AC2252B323A000D22DC /* TabTouchTests */,
+				DB364ACD252B323A000D22DC /* TabTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB364AAB252B3236000D22DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB364ABD252B323A000D22DC /* LaunchScreen.storyboard in Resources */,
+				DB364ABA252B323A000D22DC /* Assets.xcassets in Resources */,
+				DB364AB8252B3236000D22DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364AC1252B323A000D22DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364ACC252B323A000D22DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB364AA9252B3236000D22DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB364AB5252B3236000D22DC /* ViewController.swift in Sources */,
+				DB364AB1252B3236000D22DC /* AppDelegate.swift in Sources */,
+				DB364AB3252B3236000D22DC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364ABF252B323A000D22DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB364AC8252B323A000D22DC /* TabTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364ACA252B323A000D22DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB364AD3252B323A000D22DC /* TabTouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB364AC5252B323A000D22DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB364AAC252B3236000D22DC /* TabTouch */;
+			targetProxy = DB364AC4252B323A000D22DC /* PBXContainerItemProxy */;
+		};
+		DB364AD0252B323A000D22DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB364AAC252B3236000D22DC /* TabTouch */;
+			targetProxy = DB364ACF252B323A000D22DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB364AB6252B3236000D22DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB364AB7252B3236000D22DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB364ABB252B323A000D22DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB364ABC252B323A000D22DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB364AD5252B323A000D22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB364AD6252B323A000D22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB364AD8252B323A000D22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = TabTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.TabTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB364AD9252B323A000D22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = TabTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.TabTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB364ADB252B323A000D22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = TabTouchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.TabTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabTouch.app/TabTouch";
+			};
+			name = Debug;
+		};
+		DB364ADC252B323A000D22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = TabTouchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.TabTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabTouch.app/TabTouch";
+			};
+			name = Release;
+		};
+		DB364ADE252B323A000D22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = TabTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.TabTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabTouch;
+			};
+			name = Debug;
+		};
+		DB364ADF252B323A000D22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = TabTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.TabTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB364AA8252B3236000D22DC /* Build configuration list for PBXProject "TabTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB364AD5252B323A000D22DC /* Debug */,
+				DB364AD6252B323A000D22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB364AD7252B323A000D22DC /* Build configuration list for PBXNativeTarget "TabTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB364AD8252B323A000D22DC /* Debug */,
+				DB364AD9252B323A000D22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB364ADA252B323A000D22DC /* Build configuration list for PBXNativeTarget "TabTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB364ADB252B323A000D22DC /* Debug */,
+				DB364ADC252B323A000D22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB364ADD252B323A000D22DC /* Build configuration list for PBXNativeTarget "TabTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB364ADE252B323A000D22DC /* Debug */,
+				DB364ADF252B323A000D22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB364AA5252B3236000D22DC /* Project object */;
+}
