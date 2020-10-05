@@ -9,14 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet var imgView: UIImageView!
+    @IBOutlet var txtLineWidth: UITextField!
     
     var lastPoint: CGPoint!
-    var lineSize:CGFloat = 2.0
+    var lineSize: CGFloat = 2.0
     var lineColor = UIColor.red.cgColor
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        txtLineWidth.text = String(Int(lineSize))
     }
 
     @IBAction func clearImageView(_ sender: UIButton) {
@@ -66,5 +68,37 @@ class ViewController: UIViewController {
         if motion == .motionShake {
             imgView.image = nil
         }
+    }
+    
+    @IBAction func btnBlack(_ sender: UIButton) {
+        lineColor = UIColor.black.cgColor
+    }
+    
+    @IBAction func btnRed(_ sender: UIButton) {
+        lineColor = UIColor.red.cgColor
+    }
+    
+    @IBAction func btnGreen(_ sender: UIButton) {
+        lineColor = UIColor.green.cgColor
+    }
+    
+    @IBAction func btnBlue(_ sender: UIButton) {
+        lineColor = UIColor.blue.cgColor
+    }
+    
+    @IBAction func btnChangeLineWidth(_ sender: UITextField) {
+        if txtLineWidth.text == nil {
+            lineSize = 1
+        } else {
+            lineSize = CGFloat(Int(txtLineWidth.text!)!)
+        }
+    }
+    
+    @IBAction func txtTouchDown(_ sender: UITextField) {
+        txtLineWidth.selectAll(UITextField.self)
+    }
+    
+    @IBAction func txtDidEndOnExit(_ sender: UITextField) {
+        lineSize =    CGFloat(Int(txtLineWidth.text!)!)
     }
 }
