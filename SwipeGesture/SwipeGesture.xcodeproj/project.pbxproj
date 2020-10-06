@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB364B2F252BF596000D22DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364B2E252BF596000D22DC /* AppDelegate.swift */; };
+		DB364B31252BF596000D22DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364B30252BF596000D22DC /* SceneDelegate.swift */; };
+		DB364B33252BF596000D22DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364B32252BF596000D22DC /* ViewController.swift */; };
+		DB364B36252BF596000D22DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB364B34252BF596000D22DC /* Main.storyboard */; };
+		DB364B38252BF59C000D22DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB364B37252BF59C000D22DC /* Assets.xcassets */; };
+		DB364B3B252BF59C000D22DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB364B39252BF59C000D22DC /* LaunchScreen.storyboard */; };
+		DB364B46252BF59C000D22DC /* SwipeGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364B45252BF59C000D22DC /* SwipeGestureTests.swift */; };
+		DB364B51252BF59C000D22DC /* SwipeGestureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364B50252BF59C000D22DC /* SwipeGestureUITests.swift */; };
+		DB364B6E252BF626000D22DC /* arrow-left-black.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364B62252BF626000D22DC /* arrow-left-black.png */; };
+		DB364B6F252BF627000D22DC /* arrow-right-black.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364B63252BF626000D22DC /* arrow-right-black.png */; };
+		DB364B70252BF627000D22DC /* arrow-down-black.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364B64252BF626000D22DC /* arrow-down-black.png */; };
+		DB364B71252BF627000D22DC /* arrow-up-black.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364B65252BF626000D22DC /* arrow-up-black.png */; };
+		DB364B72252BF627000D22DC /* arrow-up-red.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364B66252BF626000D22DC /* arrow-up-red.png */; };
+		DB364B73252BF627000D22DC /* arrow-up-green.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364B67252BF626000D22DC /* arrow-up-green.png */; };
+		DB364B74252BF627000D22DC /* arrow-down-green.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364B68252BF626000D22DC /* arrow-down-green.png */; };
+		DB364B75252BF627000D22DC /* arrow-right-green.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364B69252BF626000D22DC /* arrow-right-green.png */; };
+		DB364B76252BF627000D22DC /* arrow-down-red.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364B6A252BF626000D22DC /* arrow-down-red.png */; };
+		DB364B77252BF627000D22DC /* arrow-right-red.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364B6B252BF626000D22DC /* arrow-right-red.png */; };
+		DB364B78252BF627000D22DC /* arrow-left-green.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364B6C252BF626000D22DC /* arrow-left-green.png */; };
+		DB364B79252BF627000D22DC /* arrow-left-red.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364B6D252BF626000D22DC /* arrow-left-red.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB364B42252BF59C000D22DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB364B23252BF596000D22DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB364B2A252BF596000D22DC;
+			remoteInfo = SwipeGesture;
+		};
+		DB364B4D252BF59C000D22DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB364B23252BF596000D22DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB364B2A252BF596000D22DC;
+			remoteInfo = SwipeGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB364B2B252BF596000D22DC /* SwipeGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB364B2E252BF596000D22DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB364B30252BF596000D22DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB364B32252BF596000D22DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB364B35252BF596000D22DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB364B37252BF59C000D22DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB364B3A252BF59C000D22DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB364B3C252BF59C000D22DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB364B41252BF59C000D22DC /* SwipeGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB364B45252BF59C000D22DC /* SwipeGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureTests.swift; sourceTree = "<group>"; };
+		DB364B47252BF59C000D22DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB364B4C252BF59C000D22DC /* SwipeGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB364B50252BF59C000D22DC /* SwipeGestureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureUITests.swift; sourceTree = "<group>"; };
+		DB364B52252BF59C000D22DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB364B62252BF626000D22DC /* arrow-left-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left-black.png"; sourceTree = "<group>"; };
+		DB364B63252BF626000D22DC /* arrow-right-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right-black.png"; sourceTree = "<group>"; };
+		DB364B64252BF626000D22DC /* arrow-down-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down-black.png"; sourceTree = "<group>"; };
+		DB364B65252BF626000D22DC /* arrow-up-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up-black.png"; sourceTree = "<group>"; };
+		DB364B66252BF626000D22DC /* arrow-up-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up-red.png"; sourceTree = "<group>"; };
+		DB364B67252BF626000D22DC /* arrow-up-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up-green.png"; sourceTree = "<group>"; };
+		DB364B68252BF626000D22DC /* arrow-down-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down-green.png"; sourceTree = "<group>"; };
+		DB364B69252BF626000D22DC /* arrow-right-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right-green.png"; sourceTree = "<group>"; };
+		DB364B6A252BF626000D22DC /* arrow-down-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down-red.png"; sourceTree = "<group>"; };
+		DB364B6B252BF626000D22DC /* arrow-right-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right-red.png"; sourceTree = "<group>"; };
+		DB364B6C252BF626000D22DC /* arrow-left-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left-green.png"; sourceTree = "<group>"; };
+		DB364B6D252BF626000D22DC /* arrow-left-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left-red.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB364B28252BF596000D22DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364B3E252BF59C000D22DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364B49252BF59C000D22DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB364B22252BF596000D22DC = {
+			isa = PBXGroup;
+			children = (
+				DB364B2D252BF596000D22DC /* SwipeGesture */,
+				DB364B44252BF59C000D22DC /* SwipeGestureTests */,
+				DB364B4F252BF59C000D22DC /* SwipeGestureUITests */,
+				DB364B2C252BF596000D22DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB364B2C252BF596000D22DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB364B2B252BF596000D22DC /* SwipeGesture.app */,
+				DB364B41252BF59C000D22DC /* SwipeGestureTests.xctest */,
+				DB364B4C252BF59C000D22DC /* SwipeGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB364B2D252BF596000D22DC /* SwipeGesture */ = {
+			isa = PBXGroup;
+			children = (
+				DB364B61252BF626000D22DC /* images */,
+				DB364B2E252BF596000D22DC /* AppDelegate.swift */,
+				DB364B30252BF596000D22DC /* SceneDelegate.swift */,
+				DB364B32252BF596000D22DC /* ViewController.swift */,
+				DB364B34252BF596000D22DC /* Main.storyboard */,
+				DB364B37252BF59C000D22DC /* Assets.xcassets */,
+				DB364B39252BF59C000D22DC /* LaunchScreen.storyboard */,
+				DB364B3C252BF59C000D22DC /* Info.plist */,
+			);
+			path = SwipeGesture;
+			sourceTree = "<group>";
+		};
+		DB364B44252BF59C000D22DC /* SwipeGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB364B45252BF59C000D22DC /* SwipeGestureTests.swift */,
+				DB364B47252BF59C000D22DC /* Info.plist */,
+			);
+			path = SwipeGestureTests;
+			sourceTree = "<group>";
+		};
+		DB364B4F252BF59C000D22DC /* SwipeGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB364B50252BF59C000D22DC /* SwipeGestureUITests.swift */,
+				DB364B52252BF59C000D22DC /* Info.plist */,
+			);
+			path = SwipeGestureUITests;
+			sourceTree = "<group>";
+		};
+		DB364B61252BF626000D22DC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DB364B62252BF626000D22DC /* arrow-left-black.png */,
+				DB364B63252BF626000D22DC /* arrow-right-black.png */,
+				DB364B64252BF626000D22DC /* arrow-down-black.png */,
+				DB364B65252BF626000D22DC /* arrow-up-black.png */,
+				DB364B66252BF626000D22DC /* arrow-up-red.png */,
+				DB364B67252BF626000D22DC /* arrow-up-green.png */,
+				DB364B68252BF626000D22DC /* arrow-down-green.png */,
+				DB364B69252BF626000D22DC /* arrow-right-green.png */,
+				DB364B6A252BF626000D22DC /* arrow-down-red.png */,
+				DB364B6B252BF626000D22DC /* arrow-right-red.png */,
+				DB364B6C252BF626000D22DC /* arrow-left-green.png */,
+				DB364B6D252BF626000D22DC /* arrow-left-red.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB364B2A252BF596000D22DC /* SwipeGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB364B55252BF59D000D22DC /* Build configuration list for PBXNativeTarget "SwipeGesture" */;
+			buildPhases = (
+				DB364B27252BF596000D22DC /* Sources */,
+				DB364B28252BF596000D22DC /* Frameworks */,
+				DB364B29252BF596000D22DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeGesture;
+			productName = SwipeGesture;
+			productReference = DB364B2B252BF596000D22DC /* SwipeGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB364B40252BF59C000D22DC /* SwipeGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB364B58252BF59D000D22DC /* Build configuration list for PBXNativeTarget "SwipeGestureTests" */;
+			buildPhases = (
+				DB364B3D252BF59C000D22DC /* Sources */,
+				DB364B3E252BF59C000D22DC /* Frameworks */,
+				DB364B3F252BF59C000D22DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB364B43252BF59C000D22DC /* PBXTargetDependency */,
+			);
+			name = SwipeGestureTests;
+			productName = SwipeGestureTests;
+			productReference = DB364B41252BF59C000D22DC /* SwipeGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB364B4B252BF59C000D22DC /* SwipeGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB364B5B252BF59D000D22DC /* Build configuration list for PBXNativeTarget "SwipeGestureUITests" */;
+			buildPhases = (
+				DB364B48252BF59C000D22DC /* Sources */,
+				DB364B49252BF59C000D22DC /* Frameworks */,
+				DB364B4A252BF59C000D22DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB364B4E252BF59C000D22DC /* PBXTargetDependency */,
+			);
+			name = SwipeGestureUITests;
+			productName = SwipeGestureUITests;
+			productReference = DB364B4C252BF59C000D22DC /* SwipeGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB364B23252BF596000D22DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DB364B2A252BF596000D22DC = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DB364B40252BF59C000D22DC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DB364B2A252BF596000D22DC;
+					};
+					DB364B4B252BF59C000D22DC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DB364B2A252BF596000D22DC;
+					};
+				};
+			};
+			buildConfigurationList = DB364B26252BF596000D22DC /* Build configuration list for PBXProject "SwipeGesture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB364B22252BF596000D22DC;
+			productRefGroup = DB364B2C252BF596000D22DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB364B2A252BF596000D22DC /* SwipeGesture */,
+				DB364B40252BF59C000D22DC /* SwipeGestureTests */,
+				DB364B4B252BF59C000D22DC /* SwipeGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB364B29252BF596000D22DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB364B72252BF627000D22DC /* arrow-up-red.png in Resources */,
+				DB364B76252BF627000D22DC /* arrow-down-red.png in Resources */,
+				DB364B77252BF627000D22DC /* arrow-right-red.png in Resources */,
+				DB364B6E252BF626000D22DC /* arrow-left-black.png in Resources */,
+				DB364B70252BF627000D22DC /* arrow-down-black.png in Resources */,
+				DB364B73252BF627000D22DC /* arrow-up-green.png in Resources */,
+				DB364B78252BF627000D22DC /* arrow-left-green.png in Resources */,
+				DB364B3B252BF59C000D22DC /* LaunchScreen.storyboard in Resources */,
+				DB364B71252BF627000D22DC /* arrow-up-black.png in Resources */,
+				DB364B38252BF59C000D22DC /* Assets.xcassets in Resources */,
+				DB364B74252BF627000D22DC /* arrow-down-green.png in Resources */,
+				DB364B75252BF627000D22DC /* arrow-right-green.png in Resources */,
+				DB364B79252BF627000D22DC /* arrow-left-red.png in Resources */,
+				DB364B6F252BF627000D22DC /* arrow-right-black.png in Resources */,
+				DB364B36252BF596000D22DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364B3F252BF59C000D22DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364B4A252BF59C000D22DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB364B27252BF596000D22DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB364B33252BF596000D22DC /* ViewController.swift in Sources */,
+				DB364B2F252BF596000D22DC /* AppDelegate.swift in Sources */,
+				DB364B31252BF596000D22DC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364B3D252BF59C000D22DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB364B46252BF59C000D22DC /* SwipeGestureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364B48252BF59C000D22DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB364B51252BF59C000D22DC /* SwipeGestureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB364B43252BF59C000D22DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB364B2A252BF596000D22DC /* SwipeGesture */;
+			targetProxy = DB364B42252BF59C000D22DC /* PBXContainerItemProxy */;
+		};
+		DB364B4E252BF59C000D22DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB364B2A252BF596000D22DC /* SwipeGesture */;
+			targetProxy = DB364B4D252BF59C000D22DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB364B34252BF596000D22DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB364B35252BF596000D22DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB364B39252BF59C000D22DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB364B3A252BF59C000D22DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB364B53252BF59D000D22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB364B54252BF59D000D22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB364B56252BF59D000D22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = SwipeGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.SwipeGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB364B57252BF59D000D22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = SwipeGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.SwipeGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB364B59252BF59D000D22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = SwipeGestureTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.SwipeGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeGesture.app/SwipeGesture";
+			};
+			name = Debug;
+		};
+		DB364B5A252BF59D000D22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = SwipeGestureTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.SwipeGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeGesture.app/SwipeGesture";
+			};
+			name = Release;
+		};
+		DB364B5C252BF59D000D22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = SwipeGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.SwipeGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeGesture;
+			};
+			name = Debug;
+		};
+		DB364B5D252BF59D000D22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = SwipeGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.SwipeGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeGesture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB364B26252BF596000D22DC /* Build configuration list for PBXProject "SwipeGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB364B53252BF59D000D22DC /* Debug */,
+				DB364B54252BF59D000D22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB364B55252BF59D000D22DC /* Build configuration list for PBXNativeTarget "SwipeGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB364B56252BF59D000D22DC /* Debug */,
+				DB364B57252BF59D000D22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB364B58252BF59D000D22DC /* Build configuration list for PBXNativeTarget "SwipeGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB364B59252BF59D000D22DC /* Debug */,
+				DB364B5A252BF59D000D22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB364B5B252BF59D000D22DC /* Build configuration list for PBXNativeTarget "SwipeGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB364B5C252BF59D000D22DC /* Debug */,
+				DB364B5D252BF59D000D22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB364B23252BF596000D22DC /* Project object */;
+}
