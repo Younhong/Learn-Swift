@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB364B8D252C40D5000D22DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364B8C252C40D5000D22DC /* AppDelegate.swift */; };
+		DB364B8F252C40D5000D22DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364B8E252C40D5000D22DC /* SceneDelegate.swift */; };
+		DB364B91252C40D5000D22DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364B90252C40D5000D22DC /* ViewController.swift */; };
+		DB364B94252C40D5000D22DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB364B92252C40D5000D22DC /* Main.storyboard */; };
+		DB364B96252C40DA000D22DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB364B95252C40DA000D22DC /* Assets.xcassets */; };
+		DB364B99252C40DA000D22DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB364B97252C40DA000D22DC /* LaunchScreen.storyboard */; };
+		DB364BA4252C40DA000D22DC /* PinchGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364BA3252C40DA000D22DC /* PinchGestureTests.swift */; };
+		DB364BAF252C40DA000D22DC /* PinchGestureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB364BAE252C40DA000D22DC /* PinchGestureUITests.swift */; };
+		DB364BC0252C4339000D22DC /* img-06.png in Resources */ = {isa = PBXBuildFile; fileRef = DB364BBF252C4338000D22DC /* img-06.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB364BA0252C40DA000D22DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB364B81252C40D5000D22DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB364B88252C40D5000D22DC;
+			remoteInfo = PinchGesture;
+		};
+		DB364BAB252C40DA000D22DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB364B81252C40D5000D22DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB364B88252C40D5000D22DC;
+			remoteInfo = PinchGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB364B89252C40D5000D22DC /* PinchGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB364B8C252C40D5000D22DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB364B8E252C40D5000D22DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB364B90252C40D5000D22DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB364B93252C40D5000D22DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB364B95252C40DA000D22DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB364B98252C40DA000D22DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB364B9A252C40DA000D22DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB364B9F252C40DA000D22DC /* PinchGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB364BA3252C40DA000D22DC /* PinchGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchGestureTests.swift; sourceTree = "<group>"; };
+		DB364BA5252C40DA000D22DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB364BAA252C40DA000D22DC /* PinchGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB364BAE252C40DA000D22DC /* PinchGestureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchGestureUITests.swift; sourceTree = "<group>"; };
+		DB364BB0252C40DA000D22DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB364BBF252C4338000D22DC /* img-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-06.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB364B86252C40D5000D22DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364B9C252C40DA000D22DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364BA7252C40DA000D22DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB364B80252C40D5000D22DC = {
+			isa = PBXGroup;
+			children = (
+				DB364B8B252C40D5000D22DC /* PinchGesture */,
+				DB364BA2252C40DA000D22DC /* PinchGestureTests */,
+				DB364BAD252C40DA000D22DC /* PinchGestureUITests */,
+				DB364B8A252C40D5000D22DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB364B8A252C40D5000D22DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB364B89252C40D5000D22DC /* PinchGesture.app */,
+				DB364B9F252C40DA000D22DC /* PinchGestureTests.xctest */,
+				DB364BAA252C40DA000D22DC /* PinchGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB364B8B252C40D5000D22DC /* PinchGesture */ = {
+			isa = PBXGroup;
+			children = (
+				DB364BBF252C4338000D22DC /* img-06.png */,
+				DB364B8C252C40D5000D22DC /* AppDelegate.swift */,
+				DB364B8E252C40D5000D22DC /* SceneDelegate.swift */,
+				DB364B90252C40D5000D22DC /* ViewController.swift */,
+				DB364B92252C40D5000D22DC /* Main.storyboard */,
+				DB364B95252C40DA000D22DC /* Assets.xcassets */,
+				DB364B97252C40DA000D22DC /* LaunchScreen.storyboard */,
+				DB364B9A252C40DA000D22DC /* Info.plist */,
+			);
+			path = PinchGesture;
+			sourceTree = "<group>";
+		};
+		DB364BA2252C40DA000D22DC /* PinchGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB364BA3252C40DA000D22DC /* PinchGestureTests.swift */,
+				DB364BA5252C40DA000D22DC /* Info.plist */,
+			);
+			path = PinchGestureTests;
+			sourceTree = "<group>";
+		};
+		DB364BAD252C40DA000D22DC /* PinchGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB364BAE252C40DA000D22DC /* PinchGestureUITests.swift */,
+				DB364BB0252C40DA000D22DC /* Info.plist */,
+			);
+			path = PinchGestureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB364B88252C40D5000D22DC /* PinchGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB364BB3252C40DA000D22DC /* Build configuration list for PBXNativeTarget "PinchGesture" */;
+			buildPhases = (
+				DB364B85252C40D5000D22DC /* Sources */,
+				DB364B86252C40D5000D22DC /* Frameworks */,
+				DB364B87252C40D5000D22DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinchGesture;
+			productName = PinchGesture;
+			productReference = DB364B89252C40D5000D22DC /* PinchGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB364B9E252C40DA000D22DC /* PinchGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB364BB6252C40DA000D22DC /* Build configuration list for PBXNativeTarget "PinchGestureTests" */;
+			buildPhases = (
+				DB364B9B252C40DA000D22DC /* Sources */,
+				DB364B9C252C40DA000D22DC /* Frameworks */,
+				DB364B9D252C40DA000D22DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB364BA1252C40DA000D22DC /* PBXTargetDependency */,
+			);
+			name = PinchGestureTests;
+			productName = PinchGestureTests;
+			productReference = DB364B9F252C40DA000D22DC /* PinchGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB364BA9252C40DA000D22DC /* PinchGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB364BB9252C40DA000D22DC /* Build configuration list for PBXNativeTarget "PinchGestureUITests" */;
+			buildPhases = (
+				DB364BA6252C40DA000D22DC /* Sources */,
+				DB364BA7252C40DA000D22DC /* Frameworks */,
+				DB364BA8252C40DA000D22DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB364BAC252C40DA000D22DC /* PBXTargetDependency */,
+			);
+			name = PinchGestureUITests;
+			productName = PinchGestureUITests;
+			productReference = DB364BAA252C40DA000D22DC /* PinchGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB364B81252C40D5000D22DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DB364B88252C40D5000D22DC = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DB364B9E252C40DA000D22DC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DB364B88252C40D5000D22DC;
+					};
+					DB364BA9252C40DA000D22DC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DB364B88252C40D5000D22DC;
+					};
+				};
+			};
+			buildConfigurationList = DB364B84252C40D5000D22DC /* Build configuration list for PBXProject "PinchGesture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB364B80252C40D5000D22DC;
+			productRefGroup = DB364B8A252C40D5000D22DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB364B88252C40D5000D22DC /* PinchGesture */,
+				DB364B9E252C40DA000D22DC /* PinchGestureTests */,
+				DB364BA9252C40DA000D22DC /* PinchGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB364B87252C40D5000D22DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB364B99252C40DA000D22DC /* LaunchScreen.storyboard in Resources */,
+				DB364BC0252C4339000D22DC /* img-06.png in Resources */,
+				DB364B96252C40DA000D22DC /* Assets.xcassets in Resources */,
+				DB364B94252C40D5000D22DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364B9D252C40DA000D22DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364BA8252C40DA000D22DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB364B85252C40D5000D22DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB364B91252C40D5000D22DC /* ViewController.swift in Sources */,
+				DB364B8D252C40D5000D22DC /* AppDelegate.swift in Sources */,
+				DB364B8F252C40D5000D22DC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364B9B252C40DA000D22DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB364BA4252C40DA000D22DC /* PinchGestureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364BA6252C40DA000D22DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB364BAF252C40DA000D22DC /* PinchGestureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB364BA1252C40DA000D22DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB364B88252C40D5000D22DC /* PinchGesture */;
+			targetProxy = DB364BA0252C40DA000D22DC /* PBXContainerItemProxy */;
+		};
+		DB364BAC252C40DA000D22DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB364B88252C40D5000D22DC /* PinchGesture */;
+			targetProxy = DB364BAB252C40DA000D22DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB364B92252C40D5000D22DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB364B93252C40D5000D22DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB364B97252C40DA000D22DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB364B98252C40DA000D22DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB364BB1252C40DA000D22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB364BB2252C40DA000D22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB364BB4252C40DA000D22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = PinchGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.PinchGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB364BB5252C40DA000D22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = PinchGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.PinchGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB364BB7252C40DA000D22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = PinchGestureTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.PinchGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinchGesture.app/PinchGesture";
+			};
+			name = Debug;
+		};
+		DB364BB8252C40DA000D22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = PinchGestureTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.PinchGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinchGesture.app/PinchGesture";
+			};
+			name = Release;
+		};
+		DB364BBA252C40DA000D22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = PinchGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.PinchGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinchGesture;
+			};
+			name = Debug;
+		};
+		DB364BBB252C40DA000D22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNY38S9UY;
+				INFOPLIST_FILE = PinchGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Younhong.PinchGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinchGesture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB364B84252C40D5000D22DC /* Build configuration list for PBXProject "PinchGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB364BB1252C40DA000D22DC /* Debug */,
+				DB364BB2252C40DA000D22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB364BB3252C40DA000D22DC /* Build configuration list for PBXNativeTarget "PinchGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB364BB4252C40DA000D22DC /* Debug */,
+				DB364BB5252C40DA000D22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB364BB6252C40DA000D22DC /* Build configuration list for PBXNativeTarget "PinchGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB364BB7252C40DA000D22DC /* Debug */,
+				DB364BB8252C40DA000D22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB364BB9252C40DA000D22DC /* Build configuration list for PBXNativeTarget "PinchGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB364BBA252C40DA000D22DC /* Debug */,
+				DB364BBB252C40DA000D22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB364B81252C40D5000D22DC /* Project object */;
+}
