@@ -86,7 +86,7 @@ class ViewController: UIViewController {
         lineColor = UIColor.blue.cgColor
     }
     
-    @IBAction func btnChangeLineWidth(_ sender: UITextField) {
+    @IBAction func txtChangeLineWidth(_ sender: UITextField) {
         if txtLineWidth.text == nil {
             lineSize = 1
         } else {
