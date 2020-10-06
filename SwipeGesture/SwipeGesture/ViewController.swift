@@ -112,13 +112,13 @@ class ViewController: UIViewController {
             
             switch swipeGesture.direction {
             case UISwipeGestureRecognizer.Direction.up:
-                imgViewUp.image = imgUp[1]
+                imgViewUp.image = imgUp[2]
             case UISwipeGestureRecognizer.Direction.down:
-                imgViewDown.image = imgDown[1]
+                imgViewDown.image = imgDown[2]
             case UISwipeGestureRecognizer.Direction.left:
-                imgViewLeft.image = imgLeft[1]
+                imgViewLeft.image = imgLeft[2]
             case UISwipeGestureRecognizer.Direction.right:
-                imgViewRight.image = imgRight[1]
+                imgViewRight.image = imgRight[2]
             default:
                 break
             }
